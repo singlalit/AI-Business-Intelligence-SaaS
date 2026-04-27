@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Send, Bot, User, Loader2, Download } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { Send, Bot, User, Loader2, Download, Sparkles } from 'lucide-react';
 import { queryDataset } from '../services/api';
 import Visualization from './Visualization';
 import { motion } from 'framer-motion';
@@ -180,5 +180,3 @@ const ChatInterface = ({ currentDataset }) => {
 
 export default ChatInterface;
 
-// Note: Add Sparkles to imports if needed, adding it here for the prediction UI.
-import { Sparkles } from 'lucide-react';

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { 
   LineChart, Line, BarChart, Bar, PieChart, Pie, AreaChart, Area, 
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell
@@ -54,7 +54,7 @@ const Visualization = ({ config, data }) => {
             ))}
           </AreaChart>
         );
-      case 'pie':
+      case 'pie': {
         // Pie chart typically uses first yAxisKey for values and xAxisKey for names
         const valKey = yAxisKeys?.[0];
         return (
@@ -77,6 +77,7 @@ const Visualization = ({ config, data }) => {
             </Pie>
           </PieChart>
         );
+      }
       default:
         return (
           <div className="flex items-center justify-center h-full text-slate-400">

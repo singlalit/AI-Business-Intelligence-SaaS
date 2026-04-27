@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { Upload, MessageSquare, LogOut, FileText } from 'lucide-react';
 import { uploadDataset } from '../services/api';
 

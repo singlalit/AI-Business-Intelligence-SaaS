@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { BarChart3, Database, Sparkles, ArrowRight } from 'lucide-react';
